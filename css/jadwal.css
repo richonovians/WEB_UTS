@@ -1,0 +1,65 @@
+:root {
+    --primary: #08111c ;
+    --secondary: #63d0ff;
+}
+
+h2 {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--secondary);
+}
+
+.jadwal {
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jadwal::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background: linear-gradient(0deg,rgba(1,1,3,1) 10%, rgba(255,255,255,0) 50%);
+}
+
+.jadwal .tabel {
+    margin: 0rem 4rem 2rem 3.5rem;
+}
+
+.jadwal .tabel .matkul {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.jadwal .tabel .matkul th, td {
+    border: var(--secondary) solid;
+    padding: 0.4rem 1.5rem;
+    font-size: 0.9rem
+}
+
+.jadwal .tabel .matkul th {
+    background-color: #26abe4;
+    color: var(--primary);
+}
+
+@media (max-width: 450px) {
+    h2 {
+        margin-left: 10rem;
+    }
+
+    .jadwal {
+        width: 130%;
+    }
+
+    footer {
+        width: 130%;
+    }
+}
