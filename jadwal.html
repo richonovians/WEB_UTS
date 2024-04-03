@@ -1,144 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jadwal Perkuliahan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jadwal.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jadwal.css" />
+  </head>
+  <body>
     <!-- Navbar start -->
     <nav class="navbar">
-        <a href="profil.html" class="navbar-loggo">richonovians</a>
+      <a href="profil.html" class="navbar-loggo">richonovians</a>
 
-        <div class="navbar-nav">
-            <a href="home.html">Home</a>
-            <a href="profil.html">Profil</a>
-            <a href="tentang.html">Tentang Saya</a>
-            <a href="hobi.html">Hobi</a>
-            <a href="jadwal.html">Jadwal Perkuliahan</a>
-            <a href="pendaftaran.html">Daftar</a>
-        </div>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="profil.html">Profil</a>
+        <a href="tentang.html">Tentang Saya</a>
+        <a href="hobi.html">Hobi</a>
+        <a href="jadwal.html">Jadwal Perkuliahan</a>
+        <a href="pendaftaran.html">Daftar</a>
+      </div>
 
-        <div class="navbar-extra">
-            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-        </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
     </nav>
     <!-- Navbar end -->
 
     <!-- Content Start -->
 
     <h2>Jadwal Perkuliahan</h2>
-    
+
     <section class="jadwal" id="jadwal">
-        <div class="tabel">
-            <table class="matkul">
-                <thead>
-                    <tr>
-                        <th>Hari</th>
-                        <th>Jam</th>
-                        <th>Mata Kuliah</th>
-                        <th>Ruang</th>
-                        <th>Dosen Pengajar</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="3">Senin</td>
-                        <td>09.45 - 11:25</td>
-                        <td>Metode dan Model Pengembangan Perangkat Lunak</td>
-                        <td>Ruang 210 </td>
-                        <td>Sigit Kariagil Bimonugroho, S.Kom.,M.T.</td>
-                    </tr>
-                    <tr>
-                        <td>12:45 - 14.25</td>
-                        <td>Pemrograman Berbasis Web 1</td>
-                        <td>Ruang 313</td>
-                        <td>Gus Nanang Syarifuddin., S.Kom., M.Kom.</td>
-                    </tr>
-                    <tr>
-                        <td>14:45 - 19:55</td>
-                        <td>Praktik Pemrograman Berbasis Web 1</td>
-                        <td>Ruang 218</td>
-                        <td>Gus Nanang Syarifuddin., S.Kom., M.Kom.</td>
-                    </tr>
-                    <tr>
-                        <td>Selasa</td>
-                        <td>07:00 - 12.15</td>
-                        <td>Sistem Operasi</td>
-                        <td>Ruang 216</td>
-                        <td>MH. Ramdhani Ismar, S.ST.,M.T</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3">Rabu</td>
-                        <td>07:00 - 08:40</td>
-                        <td>Teknologi Informasi</td>
-                        <td>Ruang 307</td>
-                        <td>Tri Septianto,S.Kom., M.Kom.</td>
-                    </tr>
-                    <tr>
-                        <td>10.35 - 12.15</td>
-                        <td>Pemrograman Berbasis Objek</td>
-                        <td>Ruang 311</td>
-                        <td>Ardian Prima Atmaja, S.Kom., M.Cs.</td>
-                    </tr>
-                    <tr>
-                        <td>12.45 - 18.00</td>
-                        <td>Praktik Pemrograman Berbasis Objek</td>
-                        <td>Ruang 317</td>
-                        <td>Ardian Prima Atmaja, S.Kom., M.Cs.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">Kamis</td>
-                        <td>07:00 - 08:40</td>
-                        <td>Pendidikan Agama</td>
-                        <td>Ruang 311</td>
-                        <td>Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
-                    </tr>
-                    <tr>
-                        <td>08.40 - 10.35</td>
-                        <td>Analisis dan Perancangan Perangkat Lunak</td>
-                        <td>Ruang 311</td>
-                        <td>Nisa'ul Hafidhoh, M.T.	</td>
-                    </tr>
-                    <tr>
-                        <td>Jumat</td>
-                        <td>07.00 - 12.15</td>
-                        <td>Struktur Data</td>
-                        <td>Ruang 301</td>
-                        <td>Ikhwan Baidlowi Sumafta, S.Kom., M.Kom.	</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      <div class="tabel">
+        <table class="matkul">
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Jam</th>
+              <th>Mata Kuliah</th>
+              <th>Ruang</th>
+              <th>Dosen Pengajar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">Senin</td>
+              <td>09.45 - 11:25</td>
+              <td>Metode dan Model Pengembangan Perangkat Lunak</td>
+              <td>Ruang 210</td>
+              <td>Sigit Kariagil Bimonugroho, S.Kom.,M.T.</td>
+            </tr>
+            <tr>
+              <td>12:45 - 14.25</td>
+              <td>Pemrograman Berbasis Web 1</td>
+              <td>Ruang 313</td>
+              <td>Gus Nanang Syarifuddin., S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+              <td>14:45 - 19:55</td>
+              <td>Praktik Pemrograman Berbasis Web 1</td>
+              <td>Ruang 218</td>
+              <td>Gus Nanang Syarifuddin., S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+              <td>Selasa</td>
+              <td>07:00 - 12.15</td>
+              <td>Sistem Operasi</td>
+              <td>Ruang 216</td>
+              <td>MH. Ramdhani Ismar, S.ST.,M.T</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Rabu</td>
+              <td>07:00 - 08:40</td>
+              <td>Teknologi Informasi</td>
+              <td>Ruang 307</td>
+              <td>Tri Septianto,S.Kom., M.Kom.</td>
+            </tr>
+            <tr>
+              <td>10.35 - 12.15</td>
+              <td>Pemrograman Berbasis Objek</td>
+              <td>Ruang 311</td>
+              <td>Ardian Prima Atmaja, S.Kom., M.Cs.</td>
+            </tr>
+            <tr>
+              <td>12.45 - 18.00</td>
+              <td>Praktik Pemrograman Berbasis Objek</td>
+              <td>Ruang 317</td>
+              <td>Ardian Prima Atmaja, S.Kom., M.Cs.</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Kamis</td>
+              <td>07:00 - 08:40</td>
+              <td>Pendidikan Agama</td>
+              <td>Ruang 311</td>
+              <td>Dr. Nanik Nurhayati, S.Ag., M.Pd.</td>
+            </tr>
+            <tr>
+              <td>08.40 - 10.35</td>
+              <td>Analisis dan Perancangan Perangkat Lunak</td>
+              <td>Ruang 311</td>
+              <td>Nisa'ul Hafidhoh, M.T.</td>
+            </tr>
+            <tr>
+              <td>Jumat</td>
+              <td>07.00 - 12.15</td>
+              <td>Struktur Data</td>
+              <td>Ruang 301</td>
+              <td>Ikhwan Baidlowi Sumafta, S.Kom., M.Kom.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
     <!-- Content end -->
 
     <!-- Footer start -->
     <footer>
-        <div class="socials">
-            <a href="https://www.instagram.com/richonovians?igsh=MXRlcG84ZHJsMHBmNg=="><i data-feather="instagram"></i></a>
-            <a href="https://x.com/richonovianss?t=6uZypqIBTPxEGautFBc1YA&s=09"><i data-feather="twitter"></i></a>
-            <a href="https://www.facebook.com/richonovians?mibextid=ZbWKwL"><i data-feather="facebook"></i></a>
-        </div>
+      <div class="socials">
+        <a
+          href="https://www.instagram.com/richonovians?igsh=MXRlcG84ZHJsMHBmNg=="
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://x.com/richonovianss?t=6uZypqIBTPxEGautFBc1YA&s=09"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/richonovians?mibextid=ZbWKwL"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
 
-        <div class="credit">
-            <p>Created by <a href="#">richonovians.</a> | ~@2024</p>
-        </div>
+      <div class="credit">
+        <p>Created by <a href="#">richonovians.</a> | ~@2024</p>
+      </div>
     </footer>
     <!-- Footer end -->
 
     <!-- Feather Icons -->
     <script>
-        feather.replace();
+      feather.replace();
     </script>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
